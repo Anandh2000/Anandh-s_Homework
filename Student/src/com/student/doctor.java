@@ -1,6 +1,6 @@
 package com.student;
 
-public class Student {
+public class doctor {
 	final double pi = 3.14;
 	int add(int a,int b) {
 		return a+b;}
@@ -32,7 +32,7 @@ public class Student {
 		return multi(multi(div(4,3),pi),cube(r));
 	}
 	public static void main(String[] args) {
-		Student x = new Student();
+		doctor x = new doctor();
 		System.out.println(x.add(5, 5));
 		System.out.println(x.sub(6,3));
 		System.out.println(x.multi(5, 5));
