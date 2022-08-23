@@ -13,8 +13,8 @@ public class clerk {
 		al.add(new Doctor(4, "thulasi", 34, "Cardio"));
 		al.add(new Doctor(5, "bala", 28, "ortho"));
 		
-		Collections.sort(al);
-		//Collections.sort(al, new ComparatorAge());
+		//Collections.sort(al);
+		Collections.sort(al, (d,h)-> d.age-h.age);
 		System.out.println(al);
 		for (Doctor su : al) {
 			System.out.println(su);
