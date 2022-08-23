@@ -14,6 +14,8 @@ public class Hospital {
 
 	public static void main(String[] args) throws Exception {
 		Hospital h = new Hospital();
+		Doctor d = new Doctor(7,"Dococ",50,"octopus");
+		Clerk c = new Clerk(12,"spiderman","Swinging");
 		System.out.println("Enter Doctor/Clerk to show available details");
 		Scanner sc = new Scanner(System.in);
 		String ame = sc.next();
