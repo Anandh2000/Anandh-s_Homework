@@ -1,0 +1,20 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th >TradeNo</th>
+        <th >CurrencyPair</th>
+        <th >CustomerName</th>
+        <th >Amount</th>
+        <th >Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor ="let trade of trades">
+        <td>{{trade.TradeNo}}</td>
+        <td>{{trade.CurrencyPair}}</td>
+        <td>{{trade.CustomerName}}</td>
+        <td>{{trade.Amount}}</td>
+        <td>{{trade.Rate}}</td>
+      </tr>
+    </tbody>
+  </table>
